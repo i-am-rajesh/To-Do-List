@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container mt-3">
+      <div class="login-box">
+        <div class="heading ">
+          <h1>TO-DO LIST</h1>
+        </div>
+        <form>
+          <div class="user-box">
+            <input type="text" id="taskInput" name="" required="">
+            <label>Enter Task...</label>
+          </div>
+          <div class="button">
+            <div class="btn1">
+              <button id="addTaskBtn" class="btn btn-outline-success">Add Task</button>
+            </div>
+            <div class="btn2">
+              <button onclick="refresh()" class=" btn btn-outline-success"> Clear all</button>
+            </div>
+          </div>
+        </form>
+        <div class="task" id="taskList">
+          <ul  class="no-bullets"></ul>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
