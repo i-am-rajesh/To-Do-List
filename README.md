@@ -20,3 +20,11 @@ This is a simple web application for managing a to-do list. Users can add tasks,
 
 ## Demo
 You can view a live demo of this application [here](https://i-am-rajesh.github.io/To-Do-List.github.io/).
+
+## Follow Me
+
+- **Instagram**: [_iam__rajesh_](https://www.instagram.com/_iam__rajesh_/)
+- **LinkedIn**: [iam-Rajesh](https://www.linkedin.com/in/rajesh-2405-c/)
+
+Feel free to explore and experiment with the code to suit your needs!
+#
